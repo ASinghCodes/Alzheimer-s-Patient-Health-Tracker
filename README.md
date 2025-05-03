@@ -63,7 +63,11 @@ Each MMSE score is stored as a unique Observation in the FHIR backend, using LOI
 ### Experiment 3: Backend and Hosting  
 - Evaluate performance and availability of Railway-hosted FHIR server  
 - Test fallback behavior if FHIR server is unreachable  
-- Transition away from Ngrok for long-term reliability  
+- Transition away from Ngrok for long-term reliability
+
+### Previous Architecture Overview
+- Disclaimer: As project is continously being worked upon, this architecture outline has become outdated but still relevant to give an example of core features
+![Architecture](./images/Architecture.png)
 
 ## Implementation Details  
 - `PatientSelector.jsx` – Loads patients via FHIR API  
